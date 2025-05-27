@@ -7,9 +7,7 @@ The related article has been accepted in Physical Review E (PRE), see https://jo
 
 This repository will be updated gradually over the next few days.
 
-Deep Learning Approach
------------------
-See https://github.com/anwanguow/graph_descriptor_deep_learning.
+
 
 Preprint Edition
 -----------------
@@ -19,6 +17,11 @@ Saved sessions of MATLAB Classification Learner
 -----------------
 The saved sessions of MATLAB Classification Learner:
 https://drive.google.com/file/d/1-0hi_-P2unh_muGqAeghlDOeup4i5-NR/view?usp=sharing
+This part is related to the results of traditional machine learning part.
+
+Deep Learning Approach
+-----------------
+See https://github.com/anwanguow/graph_descriptor_deep_learning.
 
 Contact
 -----------------
