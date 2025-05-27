@@ -7,12 +7,6 @@ The related article has been accepted in Physical Review E (PRE), see https://jo
 
 This repository will be updated gradually over the next few days.
 
-
-
-Preprint Edition
------------------
-The preprint edition is available at https://drive.google.com/file/d/1SP3bxhoXYQ117zxxdf5iud5gAEc-1Zj4/view?usp=sharing.
-
 Saved sessions of MATLAB Classification Learner
 -----------------
 The saved sessions of MATLAB Classification Learner:
@@ -22,6 +16,10 @@ This part is related to the results of traditional machine learning part.
 Deep Learning Approach
 -----------------
 See https://github.com/anwanguow/graph_descriptor_deep_learning.
+
+Preprint Edition
+-----------------
+The preprint edition is available at https://drive.google.com/file/d/1SP3bxhoXYQ117zxxdf5iud5gAEc-1Zj4/view?usp=sharing.
 
 Contact
 -----------------
