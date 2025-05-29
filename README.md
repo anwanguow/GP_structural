@@ -17,17 +17,17 @@ Algorithms
 -----------------
 The code for key algorithms in the article can be found in the "Algorithm" directory.
 
-Modified Voronoi method: voronoi.py
-
-$p_{hop}$: p\_hop.py
-
-Type C descriptor: Use Networkx directly
-
-Type D descriptor: type\_d.py
+1. Modified Voronoi method: voronoi.py
+2. $p_{hop}$: p\_hop.py
+3. Type C descriptor: Use Networkx directly
+4. Type D descriptor: type\_d.py
 
 Batch Processing Script
 -----------------
 In the article, the procedures for generating distance matrices, constructing networks from point cloud data (frames in trajectories), calculating descriptors, assigning sample labels, and integrating feature matrices all involve batch computations and storage by traversing multiple sets of parameters. This part of the script is stored in the "Script" directory.
+
+1. 
+2.
 
 
 Traditional Machine Learning Approach
