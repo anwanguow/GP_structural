@@ -24,7 +24,7 @@ The code for key algorithms in the article can be found in the "Algorithm" direc
 
 Batch Processing Script
 -----------------
-In the article, the procedures for generating distance matrices, constructing networks (using the modified Voronoi method) from point cloud data (frames in trajectories), calculating descriptors, assigning sample labels, and integrating feature matrices all involve batch computations and storage by traversing multiple sets of parameters. This part of the script is stored in the "Script" directory. Before running, please configure the relevant directories and paths according to your local environment, and set the corresponding parameters in scripts as needed (see comments for parameter descriptions).
+In the article, the procedures for generating distance matrices, constructing networks (using the modified Voronoi method) from point cloud data (frames in trajectories), calculating various descriptors, assigning sample labels, and integrating feature matrices all involve batch computations and storage by traversing multiple sets of parameters. This part of the script is stored in the "Script" directory. Before running, please configure the relevant directories and paths according to your local environment, and set the corresponding parameters in scripts as needed (see comments for parameter descriptions).
 
 1. Distance matrix: get\_distance\_table.py
 2. Graph Generation (modified Voronoi method): generate\_graph.py
