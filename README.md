@@ -11,7 +11,19 @@ The raw data involved in the paper, namely the MD simulation trajectories and th
 
 Figures
 -----------------
-The code for reproducing each figure in the paper can be found in the "Figures" directory.
+The code for reproducing each figure in the article can be found in the "Figures" directory.
+
+Algorithms
+-----------------
+The code for key algorithms in the article can be found in the "Algorithm" directory.
+
+Modified Voronoi method: voronoi.py
+
+$p_{hop}$: p\_hop.py
+
+Type C descriptor: Use Networkx directly
+
+Type D descriptor: type\_d.py
 
 Traditional Machine Learning Approach
 -----------------
