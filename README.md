@@ -16,7 +16,6 @@ The code for reproducing each figure in the paper can be found in the "Figures" 
 Traditional Machine Learning Approach
 -----------------
 This part is related to the results of traditional machine learning part.
-
 The saved sessions of MATLAB Classification Learner:
 https://drive.google.com/file/d/1-0hi_-P2unh_muGqAeghlDOeup4i5-NR/view?usp=sharing
 
