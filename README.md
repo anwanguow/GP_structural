@@ -9,7 +9,7 @@ This repository will be updated gradually over the next few days.
 
 Figures
 -----------------
-The code for reproducing the results corresponding to each figure in the paper can be found in the "Figures" directory.
+The code for reproducing each figure in the paper can be found in the "Figures" directory.
 
 Saved sessions of MATLAB Classification Learner
 -----------------
