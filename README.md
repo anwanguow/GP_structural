@@ -25,6 +25,11 @@ Type C descriptor: Use Networkx directly
 
 Type D descriptor: type\_d.py
 
+Batch Processing Script
+-----------------
+In the article, the procedures for generating distance matrices, constructing networks from point cloud data (frames in trajectories), calculating descriptors, assigning sample labels, and integrating feature matrices all involve batch computations and storage by traversing multiple sets of parameters. This part of the script is stored in the "Script" directory.
+
+
 Traditional Machine Learning Approach
 -----------------
 This part is related to the results of traditional machine learning part.
