@@ -7,6 +7,10 @@ The related article has been accepted in Physical Review E (PRE), see https://jo
 
 This repository will be updated gradually over the next few days.
 
+Data
+-----------------
+The raw data involved in the paper, namely the MD simulation trajectories and the LAMMPS scripts used to generate them, can be found in the “data/Traj” directory.
+
 Figures
 -----------------
 The code for reproducing each figure in the paper can be found in the "Figures" directory.
