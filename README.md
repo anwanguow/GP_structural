@@ -1,7 +1,7 @@
 Graph-based Descriptors for Condensed Matter
 ==============
 
-This repository contains the implementation of core algorithms from the article "Graph-based Descriptors for Condensed Matter".
+This repository contains the code and data from the article "Graph-based Descriptors for Condensed Matter".
 
 The related article has been accepted in Physical Review E (PRE), see https://journals.aps.org/pre/accepted/cc072Ra1I1e19520f386411797c9bfb2a2d6501bc.
 
