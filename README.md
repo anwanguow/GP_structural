@@ -7,6 +7,10 @@ The related article has been accepted in Physical Review E (PRE), see https://jo
 
 This repository will be updated gradually over the next few days.
 
+Figures
+-----------------
+The code for reproducing the results corresponding to each figure in the paper can be found in the "Figures" directory.
+
 Saved sessions of MATLAB Classification Learner
 -----------------
 The saved sessions of MATLAB Classification Learner:
