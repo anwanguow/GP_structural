@@ -5,8 +5,6 @@ This repository contains the implementation of core algorithms from the article 
 
 The related article has been accepted in Physical Review E (PRE), see https://journals.aps.org/pre/accepted/cc072Ra1I1e19520f386411797c9bfb2a2d6501bc.
 
-This repository will be updated gradually over the next few days.
-
 Data
 -----------------
 The raw data involved in the paper, namely the MD simulation trajectories and the LAMMPS scripts used to generate them, can be found in the “data/Traj” directory.
