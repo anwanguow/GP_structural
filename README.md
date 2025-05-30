@@ -57,6 +57,13 @@ Early Preprint Edition (Informal)
 -----------------
 The preprint edition is available at https://drive.google.com/file/d/1SP3bxhoXYQ117zxxdf5iud5gAEc-1Zj4/view?usp=sharing.
 
+Reference
+-----------------
+```bibtex
+Information from Google Scholar
+Awaiting...
+```
+
 Contact
 -----------------
 An Wang: amturing@outlook.com 
