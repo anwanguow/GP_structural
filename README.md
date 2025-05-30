@@ -29,7 +29,7 @@ In the article, the procedures for generating distance matrices, constructing ne
 
 1. Distance matrix: get\_distance\_table.py
 2. Graph Generation (modified Voronoi method): generate\_graph.py
-3. Sample Labelling (According to $p_{hop}$, labelled as soft or hard): y\_label.py
+3. Sample Labelling (labelled as soft or hard according to $p_{hop}$): y\_label.py
 4. The value of $p_{hop}$: p\_hop\_value.py
 5. Type A descriptor: Type\_A.py
 6. Type B descriptor: Type\_B.py
