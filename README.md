@@ -19,8 +19,9 @@ The code for key algorithms in the article can be found in the "Algorithm" direc
 
 1. Modified Voronoi method: voronoi.py
 2. $p_{hop}$: p\_hop.py
-3. Type C descriptor: Use Networkx directly
-4. Type D descriptor: type\_d.py
+3. Type A and B descriptors: type\_a\_b.py
+4. Type C descriptor: Use Networkx directly
+5. Type D descriptor: type\_d.py
 
 Batch Processing Script
 -----------------
