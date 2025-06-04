@@ -56,8 +56,20 @@ See directory "PCA".
 Reference
 -----------------
 ```bibtex
-Information from Google Scholar
-Awaiting...
+@article{PhysRevE.111.064302,
+  title = {Graph-based descriptors for condensed matter},
+  author = {Wang, An and Sosso, Gabriele C.},
+  journal = {Phys. Rev. E},
+  volume = {111},
+  issue = {6},
+  pages = {064302},
+  numpages = {43},
+  year = {2025},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.111.064302},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.111.064302}
+}
 ```
 
 Contact
