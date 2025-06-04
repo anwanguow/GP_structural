@@ -3,7 +3,7 @@ Graph-based Descriptors for Condensed Matter
 
 This repository contains the code and data from the article "Graph-based Descriptors for Condensed Matter".
 
-The related article has been accepted in Physical Review E (PRE), see https://journals.aps.org/pre/accepted/cc072Ra1I1e19520f386411797c9bfb2a2d6501bc.
+The related article has been published in Physical Review E (PRE), where it is accessible at https://journals.aps.org/pre/abstract/10.1103/PhysRevE.111.064302.
 
 Data
 -----------------
