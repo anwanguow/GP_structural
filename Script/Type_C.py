@@ -5,22 +5,8 @@ import numpy as np
 import networkx as nx
 from sklearn.preprocessing import normalize
 
-# Please configure the relevant variables and paths yourself before use.
-
 r_c_arr = np.array([2.5])
-
-gap = 100
-T_min = 100
-T_max = 900+gap
-sep = np.floor((T_max - T_min) / gap).astype(np.int16)
-T = np.zeros(sep, dtype = "float64")
-T[0] = T_min
-T[1] = T_min + gap
-for i in range(2, sep):
-    T[i] = T[i-1] + gap
-T = T.astype(np.float32)
-t_arr = T
-# t represents the t-th frame in the trajectory file (in DCD format).
+t_arr = np.array([100,200,300,400,500,600,700,800,900])
 
 gap = 0.01
 T_min = 0.51
@@ -33,7 +19,6 @@ for i in range(2, sep):
     T[i] = T[i-1] + gap
 T = T.astype(np.float32)
 f_c_arr = T
-# f_c is \mathcal{A} in the article.
 
 def hindex(g, n):
     sorted_neighbor_degrees = sorted((g.degree(v) for v in g.neighbors(n)), reverse=True)
@@ -43,6 +28,13 @@ def hindex(g, n):
             break
         h = i
     return h
+
+def localrank_centrality(G):
+    localrank = {}
+    for node in G.nodes():
+        neighbors = list(G.neighbors(node)) + [node]
+        localrank[node] = sum(G.degree(n) for n in neighbors)
+    return localrank
 
 P = np.array([0])
 
@@ -75,6 +67,12 @@ for p in P:
                 betweenness_centrality = nx.betweenness_centrality(G)
                 for i in range(len(G)):
                     bc[i] = betweenness_centrality[i]
+                    
+                # localRank Centrality
+                lrc = np.zeros((len(G)), dtype = "float32")
+                lr_centrality = localrank_centrality(G)
+                for i in range(len(G)):
+                    lrc[i] = lr_centrality[i]
 
                 # Eigenvector Centrality
                 ec = np.zeros((len(G)), dtype = "float32")
@@ -100,24 +98,17 @@ for p in P:
                 for i in range(len(G)):
                     sc[i] = subgraph_centrality[i]
                 
-                # Load Centrality
-                lc = np.zeros((len(G)), dtype = "float32")
-                load_centrality = nx.load_centrality(G)
-                for i in range(len(G)):
-                    lc[i] = load_centrality[i]
-
                 # Harmonic Centrality
                 hc = np.zeros((len(G)), dtype = "float32")
                 harmonic_centrality = nx.harmonic_centrality(G)
                 for i in range(len(G)):
                     hc[i] = harmonic_centrality[i]
                 
-                X_data = np.column_stack((dc, h_index, cc, bc, ec, kn, clc, sc, lc, hc))
+                X_data = np.column_stack((dc, h_index, cc, bc, lrc, ec, kn, clc, sc, hc))
                 X_data = normalize(X_data, axis=0, norm='max')
                 
-                np.save("data/D_" + str(int(p)) + "/C_" + str(int(t)) + "_r_" + str(r_c) + "_f_" + str(f_c) + ".npy", X_data, allow_pickle=True)
+                np.save("data/D_" + str(int(p)) + "/X_" + str(int(t)) + "_r_" + str(r_c) + "_f_" + str(f_c) + ".npy", X_data, allow_pickle=True)
 
                 print(str(p), "_", str(f_c), "_" , str(int(t)))
 
-                
                 
