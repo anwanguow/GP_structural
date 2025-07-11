@@ -74,6 +74,17 @@ for p in P:
                 for i in range(len(G)):
                     lrc[i] = lr_centrality[i]
 
+                # Or:
+                # lrc = np.zeros((len(G)), dtype="float32")
+                # for i in range(len(G)):
+                #    neighbors = list(G.neighbors(i)) + [i]
+                #    deg_list = [(n, G.degree(n)) for n in neighbors]
+                #    deg_list.sort(key=lambda x: x[1], reverse=True)
+                #    for rank, (n, _) in enumerate(deg_list, start=1):
+                #        if n == i:
+                #            lrc[i] = rank
+                #            break
+
                 # Eigenvector Centrality
                 ec = np.zeros((len(G)), dtype = "float32")
                 eigenvector_centrality = nx.eigenvector_centrality(G, max_iter = 10000, tol = 1.0e-5)
